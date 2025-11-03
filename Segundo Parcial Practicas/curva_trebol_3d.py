@@ -25,7 +25,6 @@ func = Funciones(ventana)
 origen_x = 400
 origen_y = 300 # Centrado verticalmente
 
-# Escalas para cada eje (ajustadas para esta figura)
 escala_xy = 100 # Escala para el "plano" (x, y)
 escala_z = 100 # Escala para la "altura" (z)
 

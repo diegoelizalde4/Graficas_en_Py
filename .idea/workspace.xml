@@ -4,25 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ca9f92-86bc-4e9a-ae85-bef830483af3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Funcion3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyeccion_paralela_cubo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Transformaciones3D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/curva_compleja_3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/curva_hipotrocoide_3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/demo_transformaciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/proyeccion_perspectiva_cubo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Graficas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Graficas.iml" afterDir="false" />
+    <list default="true" id="26ca9f92-86bc-4e9a-ae85-bef830483af3" name="Changes" comment="Si">
+      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyecto/Funcion3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyecto/Project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyecto/Transformaciones3D.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/Curvas100.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/Curvas100.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/Curvas8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/Curvas8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Funcion3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Funcion3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Transformaciones3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Transformaciones3D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/curva_hipotrocoide_3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/curva_hipotrocoide_3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/demo_transformaciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/demo_transformaciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/proyeccion_perspectiva_cubo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/3D/proyeccion_perspectiva_cubo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/Enmallado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/Enmallado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/Funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/Funciones.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/Infinito.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/Infinito.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/curva_compleja.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/curva_compleja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/curva_hipotrocoide.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/curva_hipotrocoide.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/curva_trebol_3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/curva_trebol_3d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/espira_3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/espira_3d.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Segundo Parcial Practicas/parametrica.py" beforeDir="false" afterPath="$PROJECT_DIR$/Segundo Parcial Practicas/parametrica.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,34 +56,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Curvas100.executor": "Run",
-    "Python.Curvas8.executor": "Run",
-    "Python.Enmallado.executor": "Run",
-    "Python.Infinito.executor": "Run",
-    "Python.Proyeccion_paralela_cubo.executor": "Run",
-    "Python.curva_compleja.executor": "Run",
-    "Python.curva_compleja_3d.executor": "Run",
-    "Python.curva_hipotrocoide.executor": "Run",
-    "Python.demo_transformaciones.executor": "Run",
-    "Python.espira_3d.executor": "Run",
-    "Python.parametrica.executor": "Run",
-    "Python.proyeccion_perspectiva_cubo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Curvas100.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Curvas8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Enmallado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Infinito.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Project (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Proyeccion_paralela_cubo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.curva_compleja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.curva_compleja_3d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.curva_hipotrocoide.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo_transformaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.espira_3d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parametrica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proyeccion_perspectiva_cubo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Diego/Documents/Graficas/Segundo Parcial Practicas/3D/Proyecto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Curvas8">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Diego\Documents\Graficas\Segundo Parcial Practicas\3D\Proyecto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Diego\Documents\Graficas\Segundo Parcial Practicas\3D\Proyecto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Project (1)">
     <configuration name="Curvas8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Graficas" />
       <option name="ENV_FILES" value="" />
@@ -114,6 +118,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Project (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Graficas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyecto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyecto/Project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Graficas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Diego\Documents\Graficas\Segundo Parcial Practicas\3D\Proyecto\Project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Proyeccion_paralela_cubo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Graficas" />
       <option name="ENV_FILES" value="" />
@@ -129,52 +179,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyeccion_paralela_cubo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="curva_compleja_3d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Graficas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D/curva_compleja_3d.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo_transformaciones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Graficas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Segundo Parcial Practicas/3D/demo_transformaciones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Project (1)" />
+        <item itemvalue="Python.Project" />
         <item itemvalue="Python.Curvas8" />
         <item itemvalue="Python.proyeccion_perspectiva_cubo" />
         <item itemvalue="Python.Proyeccion_paralela_cubo" />
-        <item itemvalue="Python.demo_transformaciones" />
-        <item itemvalue="Python.curva_compleja_3d" />
       </list>
     </recent_temporary>
   </component>
@@ -238,22 +242,39 @@
       <workItem from="1761606559459" duration="1783000" />
       <workItem from="1761614317882" duration="166000" />
       <workItem from="1761669394958" duration="3777000" />
-      <workItem from="1761835530496" duration="1942000" />
+      <workItem from="1761835530496" duration="2107000" />
+      <workItem from="1761939776331" duration="1203000" />
+      <workItem from="1762196171059" duration="1115000" />
     </task>
+    <task id="LOCAL-00001" summary="Si">
+      <option name="closed" value="true" />
+      <created>1761841260787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761841260787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Si" />
+    <option name="LAST_COMMIT_MESSAGE" value="Si" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Graficas$curva_compleja.coverage" NAME="curva_compleja Coverage Results" MODIFIED="1760626153557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />
     <SUITE FILE_PATH="coverage/Graficas$curva_compleja_3d.coverage" NAME="curva_compleja_3d Coverage Results" MODIFIED="1761609340723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas/3D" />
+    <SUITE FILE_PATH="coverage/Graficas$Project.coverage" NAME="Project Coverage Results" MODIFIED="1761939988942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas/3D" />
     <SUITE FILE_PATH="coverage/Graficas$demo_transformaciones.coverage" NAME="demo_transformaciones Coverage Results" MODIFIED="1761840740140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas/3D" />
     <SUITE FILE_PATH="coverage/Graficas$Proyeccion_paralela_cubo.coverage" NAME="Proyeccion_paralela_cubo Coverage Results" MODIFIED="1761840941742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas/3D" />
     <SUITE FILE_PATH="coverage/Graficas$curva_hipotrocoide.coverage" NAME="curva_hipotrocoide Coverage Results" MODIFIED="1760626138573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />
     <SUITE FILE_PATH="coverage/Graficas$Curvas100.coverage" NAME="Curvas100 Coverage Results" MODIFIED="1760568813999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />
     <SUITE FILE_PATH="coverage/Graficas$espira_3d.coverage" NAME="espira_3d Coverage Results" MODIFIED="1761608744258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />
     <SUITE FILE_PATH="coverage/Graficas$Infinito.coverage" NAME="Infinito Coverage Results" MODIFIED="1760626188329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />
+    <SUITE FILE_PATH="coverage/Graficas$Project__1_.coverage" NAME="Project (1) Coverage Results" MODIFIED="1762196866093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas/3D/Proyecto" />
     <SUITE FILE_PATH="coverage/Graficas$Enmallado.coverage" NAME="Enmallado Coverage Results" MODIFIED="1760625606587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />
     <SUITE FILE_PATH="coverage/Graficas$Curvas8.coverage" NAME="Curvas8 Coverage Results" MODIFIED="1761840965185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />
     <SUITE FILE_PATH="coverage/Graficas$parametrica.coverage" NAME="parametrica Coverage Results" MODIFIED="1760626715967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Segundo Parcial Practicas" />

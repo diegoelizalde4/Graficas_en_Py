@@ -22,8 +22,8 @@ func3d = Funcion3d(ventana)
 # --- Configuración 3D ---
 origen_x = 400
 origen_y = 300
-escala_xy = 10 # Escala más pequeña debido a los valores grandes de x e y
-escala_z = 10 # Mantenemos la escala z aunque z=0
+escala_xy = 10 # E
+escala_z = 10 #
 
 # Bucle principal
 corriendo = True

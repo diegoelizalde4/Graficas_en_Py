@@ -8,7 +8,6 @@ sys.setrecursionlimit(2000)
 
 # --- Función para obtener y procesar la entrada del usuario ---
 def obtener_puntos_desde_consola(nombre_conjunto):
-    """Pide al usuario una lista de números y la devuelve como una lista de strings."""
     while True:
         entrada_str = input(f"Ingrese los puntos para el conjunto {nombre_conjunto} (separados por comas): ")
         if not entrada_str:

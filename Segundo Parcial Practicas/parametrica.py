@@ -4,7 +4,6 @@ from Funciones import Funciones
 import math
 import sys
 
-# Es una buena práctica incluir el aumento del límite de recursión
 sys.setrecursionlimit(2000)
 
 # Inicializar Pygame
@@ -20,7 +19,6 @@ VERDE = (0, 255, 0)
 func = Funciones(ventana)
 
 # --- Configuración para la gráfica ---
-# Escala para ajustar el tamaño de la curva en la ventana
 escala = 40
 
 # Offset para posicionar el inicio de la curva en la pantalla

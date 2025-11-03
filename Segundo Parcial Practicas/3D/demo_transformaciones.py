@@ -45,7 +45,7 @@ distancia_cz = 10
 pygame.init()
 pygame.font.init()  # <-- NUEVO: Inicializar módulo de fuentes
 ventana = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Transformaciones 3D por Pasos (Presiona ENTER)")  # <-- MODIFICADO
+pygame.display.set_caption("Transformaciones ")  # <-- MODIFICADO
 NEGRO = (0, 0, 0)
 BLANCO = (255, 255, 255)
 ROJO = (255, 0, 0)
@@ -62,7 +62,7 @@ modo_transformacion = 0  # 0=RotX, 1=RotY, 2=RotZ, 3=Tras, 4=Esc, 5=Todo
 modos_texto = {
     0: "Modo:  Eje X",
     1: "Modo:  Eje Y",
-    2: "Modo:   Z",
+    2: "Modo:  Eje Z",
     3: "Modo: ",
     4: "Modo: ",
     5: "Modo:  "
@@ -85,7 +85,7 @@ while corriendo:
 
     ventana.fill(NEGRO)
 
-    # 1. --- CREAR MATRICES DE TRANSFORMACIÓN (MODIFICADO) ---
+    # 1. --- CREAR MATRICES DE TRANSFORMACIÓN
 
     # Empezamos con matrices de identidad ("sin transformación")
     mat_rot_x = np.identity(4)
@@ -123,8 +123,7 @@ while corriendo:
         mat_tras = t3d.crear_matriz_traslacion(tx, 0, -5)
 
     # 2. --- COMBINAR MATRICES (Sin cambios) ---
-    # Esta parte funciona igual, multiplicará las matrices de identidad
-    # (que no hacen nada) por la matriz que sí esté activa.
+
     mat_rot_total = mat_rot_z.dot(mat_rot_y.dot(mat_rot_x))
     mat_modelo = mat_rot_total.dot(mat_esc)
     mat_final = mat_tras.dot(mat_modelo)
@@ -157,7 +156,6 @@ while corriendo:
     texto_instruccion = fuente_ui.render("Presiona ENTER para cambiar", True, GRIS)
     ventana.blit(texto_instruccion, (10, 40))
 
-    # 5. --- ACTUALIZAR ---
     angulo += 1  # Aumentamos el ángulo para la animación
 
     pygame.display.update()

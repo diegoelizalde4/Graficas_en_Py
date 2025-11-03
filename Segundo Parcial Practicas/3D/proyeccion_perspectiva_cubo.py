@@ -1,4 +1,3 @@
-# proyeccion_perspectiva_cubo_estatico.py
 import pygame
 from Funcion3d import Funcion3d # Asume que Funcion3d.py está en el mismo directorio
 import math
@@ -6,13 +5,11 @@ import sys
 
 sys.setrecursionlimit(2000)
 
-# --- Función de Proyección en Perspectiva (1 Punto) ---
+# --- Función de Proyección en Perspectiva
 def proyectar_perspectiva_1punto(punto_3d, cz):
-    """Proyecta un punto 3D al plano XY (z=0) usando perspectiva simple."""
     x1, y1, z1 = punto_3d
 
-    # Evitar división por cero o proyecciones extrañas si el punto está
-    # detrás o en el centro de proyección.
+
     if (z1 + cz) <= 0:
         print(f"Advertencia: Punto {punto_3d} está detrás o en el centro de proyección.")
         return (x1, y1) # Simplificación: proyectar como si z1=0
@@ -25,7 +22,6 @@ def proyectar_perspectiva_1punto(punto_3d, cz):
     return (x_p, y_p)
 
 # --- Definición del Cubo ---
-# Centremos el cubo alrededor del origen para un mejor efecto de perspectiva
 offset_3d = (2.5, 2.5, 2.5)
 vertices_3d = {
     'A': (2 - offset_3d[0], 3 - offset_3d[1], 2 - offset_3d[2]),
@@ -45,7 +41,6 @@ aristas = [
     ('A', 'E'), ('B', 'F'), ('C', 'G'), ('D', 'H')  # Conexiones verticales
 ]
 
-# Distancia al centro de proyección (experimenta con este valor)
 distancia_cz = 10
 
 # --- Inicializar Pygame ---
@@ -72,7 +67,7 @@ for nombre, coords_3d in vertices_3d.items():
     coords_2d = proyectar_perspectiva_1punto(coords_3d, distancia_cz)
     # Escalar y aplicar offset para visualización
     screen_x = coords_2d[0] * escala + offset_x
-    screen_y = -coords_2d[1] * escala + offset_y # Invertir Y para Pygame
+    screen_y = -coords_2d[1] * escala + offset_y # Invertir Y
     vertices_2d_proyectados[nombre] = (screen_x, screen_y)
 
 # Bucle principal
