@@ -1,4 +1,4 @@
-# Funcion3d.py
+
 import pygame
 import math
 
@@ -82,7 +82,6 @@ class Funcion3d:
     # --- Adaptación de Figuras 2D a 3D (en plano Z=0) ---
 
     def dibujar_curva_hipotrocoide_3d(self, origen_x_2d, origen_y_2d, escala_xy, escala_z, color, segmentos=1000):
-        """ Dibuja la curva hipotrocoide (Fig 3.7) en el plano XY (Z=0) del espacio 3D. ¡NUEVA! """
         puntos_2d_proyectados = []
         for i in range(segmentos + 1):
             t = 14 * math.pi * i / segmentos  # Rango [0, 14π]

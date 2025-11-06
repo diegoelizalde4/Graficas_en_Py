@@ -11,16 +11,12 @@ sys.setrecursionlimit(2000)
 
 # --- NUEVA FUNCIÓN DE PROYECCIÓN DE PERSPECTIVA ---
 def proyectar_perspectiva_nueva(punto_3d, d_plano):
-    """
-    'd_plano' es la distancia al plano de proyección
-    Un 'd_plano' pequeño da un efecto de "gran angular"
-    Un 'd_plano' grande da un efecto de "telefoto"
-    """
+
     x, y, z = punto_3d
 
     # (Asumimos que la cámara está en 0,0,0 y mira hacia -Z)
     if z >= -0.001:
-        return None  # Indicar que el punto no es visible
+        return None
 
     # Fórmula de proyección: xp = d * x / (-z)
     factor_perspectiva = d_plano / (-z)
@@ -31,31 +27,32 @@ def proyectar_perspectiva_nueva(punto_3d, d_plano):
     return (x_p, y_p)
 
 
-# --- GENERACIÓN DE LA
+
 def generar_superficie_param_puntos(num_t_steps, num_phi_steps, t_min, t_max, phi_min, phi_max):
     grid_vertices = []
     t_range = np.linspace(t_min, t_max, num_t_steps)
     phi_range = np.linspace(phi_min, phi_max, num_phi_steps)
 
-    max_z = t_max
+    max_z = t_max  # 'z_orig' (t_val)
     min_z = t_min
 
     for i, t_val in enumerate(t_range):
         row_vertices = []
         for j, phi_val in enumerate(phi_range):
-            # Radio = 2 - cos(t)
-            # t=0 -> cos(t)=1 -> Radio=1
-            # t=3 -> cos(t)=-0.99 -> Radio=2.99
+            # El radio sigue dependiendo de 't'
             radio = 2 - math.cos(t_val)
 
+            # El círculo se forma en el plano XZ
             x = radio * math.cos(phi_val)
-            y = radio * math.sin(phi_val)
-            z = t_val
+            y = t_val
+            z = radio * math.sin(phi_val)
 
-            # Centrar Z para que rote sobre su centro
-            z_centrada = z - (t_max + t_min) / 2.0
+            # Centrar Y
+            y_centrada = y - (t_max + t_min) / 2.0
 
-            row_vertices.append({'coords': (x, y, z_centrada), 'z_orig': z})
+
+            # (x, y_centrada, z) se usa para la posición
+            row_vertices.append({'coords': (x, y_centrada, z), 'z_orig': t_val})
         grid_vertices.append(row_vertices)
 
     return grid_vertices, min_z, max_z
@@ -94,8 +91,8 @@ def generar_caras_desde_grid(grid_vertices, min_z, max_z):
 
 
 # --- Parámetros de la superficie ---
-num_t_steps = 80
-num_phi_steps = 80
+num_t_steps = 40
+num_phi_steps = 40
 t_min = -3.0
 t_max = 3.0
 phi_min = 0.0
@@ -114,7 +111,7 @@ distancia_plano_proyeccion = 2.5  # <-- Ajusta esto para más/menos perspectiva
 pygame.init()
 pygame.font.init()
 ventana = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Superficie 'Reloj de Arena' (Corregido)")
+pygame.display.set_caption("Proyecto Graficas")
 NEGRO = (0, 0, 0)
 BLANCO = (255, 255, 255)
 func3d = Funcion3d(ventana)
@@ -130,12 +127,12 @@ reloj = pygame.time.Clock()
 angulo = 0
 modo_transformacion = 0
 modos_texto = {
-    0: "Modo: Rotacion Eje Y",
-    1: "Modo: Rotacion Eje X",
-    2: "Modo: Rotacion Eje Z",
-    3: "Modo: Traslacion",
-    4: "Modo: Escalado",
-    5: "Modo: Todas Combinadas"
+    0: "",
+    1: "",
+    2: "",
+    3: "",
+    4: "",
+    5: ""
 }
 fuente_ui = pygame.font.SysFont('Arial', 12)
 GRIS = (150, 150, 150)
@@ -205,7 +202,6 @@ while corriendo:
         triangulo_es_visible = True
         for vertice_trans in vertices_transformados:
 
-            # --- USAMOS LA NUEVA PROYECCIÓN ---
             coords_2d = proyectar_perspectiva_nueva(vertice_trans, distancia_plano_proyeccion)
 
             if coords_2d is None:
@@ -235,7 +231,7 @@ while corriendo:
     # --- Dibujar texto de UI ---
     texto_modo = fuente_ui.render(modos_texto[modo_transformacion], True, BLANCO)
     ventana.blit(texto_modo, (10, 10))
-    texto_instruccion = fuente_ui.render("Presiona ENTER para cambiar", True, GRIS)
+    texto_instruccion = fuente_ui.render("", True, GRIS)
     ventana.blit(texto_instruccion, (10, 40))
 
     # 5. --- ACTUALIZAR ---

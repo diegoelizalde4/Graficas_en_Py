@@ -1,4 +1,3 @@
-# demo_transformaciones_por_pasos.py
 import pygame
 from Funcion3d import Funcion3d  # Tu archivo original para dibujar 2D
 import Transformaciones3D as t3d  # El NUEVO archivo de funciones 3D
@@ -9,7 +8,7 @@ import numpy as np
 sys.setrecursionlimit(2000)
 
 
-# --- Función de Proyección (la misma de antes) ---
+# --- Función de Proyección
 def proyectar_perspectiva_1punto(punto_3d, cz):
     x1, y1, z1 = punto_3d
     if (z1 + cz) <= 0:
@@ -57,15 +56,14 @@ escala_pantalla = 20
 offset_x = 400
 offset_y = 300
 
-# --- NUEVO: Configuración de modos ---
 modo_transformacion = 0  # 0=RotX, 1=RotY, 2=RotZ, 3=Tras, 4=Esc, 5=Todo
 modos_texto = {
-    0: "Modo:  Eje X",
-    1: "Modo:  Eje Y",
-    2: "Modo:  Eje Z",
-    3: "Modo: ",
-    4: "Modo: ",
-    5: "Modo:  "
+    0: ":  Eje Y",
+    1: ":  Eje X",
+    2: ":  Eje Z",
+    3: ": ",
+    4: ": ",
+    5: ":  "
 }
 fuente_ui = pygame.font.SysFont('Arial', 24)
 

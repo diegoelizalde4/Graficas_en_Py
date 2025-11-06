@@ -1,4 +1,4 @@
-# Transformaciones3D.py
+
 import numpy as np
 import math
 
